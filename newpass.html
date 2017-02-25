@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<meta charset="UTF-8">
+    
+<!--For the web site to work on all devices and screen resolutions -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<script src="reg.js"></script>
+<script src="log.js"></script>
+    <title>Rahaplaneerija</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        
+        <div class="container">
+            
+            <div class="logo">
+                <h1><a href="avaleht.html">Rahaplaneerija</a></h1>
+            </div>
+            
+            <div class="nav">
+                <ul>
+                    <li><a href="avaleht.html">Pealeht</a></li>
+                    <li><a href="#">Sддstmise kalkulaator</a></li>
+                    <li><a href="#">Laenukalkulaator</a></li>
+                    <li><a href="#">Meist</a></li>
+                </ul>
+            </div>
+            
+             <div class="row">
+              <div class="container_login">
+                <form action="/action_page." align="right">
+                    <div class="input-group">
+                      <label><b>Kasutajanimi</b></label>
+                      <input id="uname" type="text" placeholder="Sisestage kasutajanimi" name="uname" required />
+                    </div>
+                    <div class="input-group">
+                      <label><b>Parool</b></label>
+                      <input id="psw" type="text" placeholder="Sisestage parool" name="psw" required />
+                    </div>
+                    <button type="submit">Logi sisse</button>
+                    <div class="input-group">
+                      <label>
+                        <input type="checkbox" checked="checked" />
+                          Jдta mind meelde
+                      </label>
+                    </div>
+                    <div class="input-group">
+                      <span class="psw">Unustasid <a href="newpass.html">parooli?</a></span>
+					  <span class=""><a href="reg.html">Registreeri</a></span>
+                    </div>
+                </form>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+    <div class="content_main">
+        <p align=center>
+ <div align="center">
+ <form name="newpass" action="" align="">
+<br>Parooli tellimine<br>
+<input id="uuspsw" type="text" name="uuspsw" onblur="NewPass()" required/><td><p id="uspsw"></p></td>
+<input type="submit" value="Saada email" onclick="NewPass()" />
+</form>
+
+
+ </div></p>
+    </div>
+    </div>
+</body>
+</html>

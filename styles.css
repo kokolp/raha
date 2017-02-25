@@ -1,0 +1,107 @@
+/* Avalehega seotud */
+body {
+    width: 100%;
+    margin: auto;
+}
+
+.content_main {
+    margin-top: 200px;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container_login {
+    float: right;
+    font-family: "Helvetica";
+    font-size: 12px;
+    padding: 16px;
+    color: #fff;
+
+}
+
+input[type=text], input[type=password] {
+    width= 100%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+    color: white;
+}
+
+.cancelbtn {
+    width: 50%;
+    padding: 5px 9px;
+    float: right;
+    
+}
+
+.align-right{
+    float: right;
+}
+
+button {
+    cursor: pointer;
+    width: 50%;
+}
+.header {
+    background: black;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+input {
+   display: block;
+}
+
+
+b{
+    color: white;
+}
+
+.logo{
+    float: left;
+    font-family: "Helvetica";
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;   
+    float: left;
+    margin-left: 15px;
+    padding-top: 15px;
+    font-family: "Helvetica";
+}
+
+.nav{
+    float: right;
+}
+
+/* S‰‰stukalkulaatori jaoks */
+
+.content_budget{
+    margin-top: 80px;
+}
+
+.saastupealkiri {
+    font-family: "Helvetica";
+    font-size: 16px;
+}
+
+.osa2 {
+    font-family: "Helvetica";
+    font-size: 16px;
+}

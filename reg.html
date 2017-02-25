@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+<meta charset="UTF-8">
+    
+<!--For the web site to work on all devices and screen resolutions -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<script src="reg.js"></script>
+<script src="login.js"></script>
+
+<script src="styles.css">
+
+</script>
+<title>Rahaplaneerija</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        
+        <div class="container">
+            
+            <div class="logo">
+                <h1><a href="avaleht.html">Rahaplaneerija</a></h1>
+            </div>
+            
+            <div class="nav">
+                <ul>
+                    <li><a href="avaleht.html">Pealeht</a></li>
+                    <li><a href="#">Sддstmise kalkulaator</a></li>
+                    <li><a href="#">Laenukalkulaator</a></li>
+                    <li><a href="#">Meist</a></li>
+                </ul>
+            </div>
+            
+             <div class="row">
+              <div class="container_login">
+                <form action="#" align="right" onsubmit="checkUser()" method="post">
+                    <div class="input-group">
+                      <label><b>Kasutajanimi</b></label>
+                      <input id="uname" type="text" placeholder="Sisestage kasutajanimi" onblur="checkUser()" name="uname"  required/>
+                    </div>
+                    <div class="input-group">
+                      <label><b>Parool</b></label>
+                      <input id="psw" type="password" onblur="checkUser()" placeholder="Sisestage parool" name="psw" required />
+                    </div>
+                    <button type="submit"  onclick="checkUser()">Logi sisse</button>
+                    <div class="input-group">
+                      <label>
+                        <input id="check" name="check" type="checkbox" value="1"  />
+                          Jдta mind meelde
+                      </label>
+                    </div>
+                    <div class="input-group">
+                      <span class="psw">Unustasid <a href="newpass.html">parooli?</a></span>
+                    <span class=""><a href="reg.html">Registreeri</a></span>
+					</div>
+                </form>
+              </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container">
+    <div class="content_main">
+        <p align=center><br><br>
+<form name="reg" action="" method="post" >
+
+
+
+<table>
+
+<tr>
+<td>Nimi</td>
+<td>
+<input type="text" name="usernimi" onblur="uNim()" required /><td><p id="umi"></p></td>
+</td>
+</tr>
+
+<tr>
+<td>Perekonnanimi</td>
+<td>
+<input type="text" name="userperekonnanimi" onblur="UsPer()" required/><td><p id="upn"></p></td>
+</td>
+</tr>
+
+<tr>
+<td> Adress</td>
+<td>
+<input type="text" name="useradress" onblur="Adr()" required/><td><p id="adr"></p></td>
+</td>
+</tr>
+
+<tr>
+<td> Telefon (+372)</td>
+<td>
+<input type="text" name="usertelefon" onblur="Tel()"required/><td><p id="ut"></p></td>
+</td>
+</tr>
+<tr>
+<td>E-mail</td>
+<td>
+<input type="text" name="uemail" onblur="Email()" required/><td><p id="uem"></p></td>
+</td>
+</tr>
+
+
+
+<tr>
+<td>Parool:</td>
+<td>
+<input type="password" name="userpassword_1" onblur="Pass()" required/><td><p id="upsw"></p></td>
+</td>
+</tr>
+
+<tr><td>
+<input type="checkbox" name="Agreement" id="Agreement" value="1" class="checkbox f-left"  required/>
+
+      <p>*Loen ja nõustun teenuse tingimused.<a href="tingimused.php"><br> </a></p>
+
+
+<input type="submit"  name="button_reg" value="Saada andmed" onclick="Registr()"  />
+</td>
+</tr>
+</table>
+</form>
+</p>
+    </div>
+    </div>
+</body>
+</html>
