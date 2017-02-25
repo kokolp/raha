@@ -10,7 +10,7 @@
   function Registr() { 
   if (userMail == ''|| userPasswrd1==''|| uName=='' || uPerenimi=='' || uAdress==''|| uTelefon=='' ){
    alert("Taita koik ");
-  
+  //db connect
    return true;
   }else
   alert("Olete registreerinud, linki saadetud emaile.");
@@ -107,7 +107,8 @@
   
    function NewPassword() { 
   if (newPass != '' || newPass.indexOf("@")<3){
-   alert("Kirjutage oma email"+f);
+   alert("Kirjutage oma email");
+	  // db connect
    
    return false;
   }
