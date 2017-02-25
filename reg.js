@@ -98,7 +98,7 @@
 		text="ok";
 		return true;
 	}else{
-		text="vale, puudub @ ";
+		text="vale, sissestage korrektne e-mail aadress ";
 	}
 	document.getElementById("uspsw").innerHTML=text; 
 	  
